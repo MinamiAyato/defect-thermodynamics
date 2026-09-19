@@ -1,0 +1,45 @@
+
+vasp.synthetic 6.x                         17Sep2026
+------------------------------------------------------------
+SYNTHETIC TRAINING OUTPUT — not produced by VASP
+SYSTEM = MgO_bulk_kmesh_5x5x5
+INCAR:
+  ENCUT = 600
+  EDIFF  = 1.0E-06
+  EDIFFG = -2.0E-02
+  ISMEAR = 0
+  SIGMA  = 0.05
+  ISPIN  = 2
+  IBRION = 2
+  NSW    = 120
+
+POSCAR: ions per type = 4 4
+NIONS = 8
+NELECT = 80.000
+NKPTS = 125
+k-point mesh = 5 5 5
+
+Iteration   1(  1)  E0= -101.55798300  d E = -8.42117E-01
+Iteration   2(  1)  E0= -102.22629500  d E = -6.68312E-01
+Iteration   3(  1)  E0= -102.37845600  d E = -1.52161E-01
+Iteration   4(  1)  E0= -102.39889300  d E = -2.04370E-02
+Iteration   5(  1)  E0= -102.40010000  d E = -1.20700E-03
+
+POSITION                                       TOTAL-FORCE (eV/Angst)
+-----------------------------------------------------------------------------------
+  0.00000  0.00000  0.00000          0.000000  0.000000  0.000000
+  2.10600  2.10600  2.10600        - 0.000000  0.000000  0.000000
+-----------------------------------------------------------------------------------
+total drift:                              0.000001 -0.000002  0.000001
+
+  energy  without entropy= -102.39977900  energy(sigma->0) = -102.40010000
+  free  energy   TOTEN  = -102.40021400 eV
+  final energy (E0)     = -102.40010000 eV
+  number of ionic steps = 0
+  maximum force         = 0.000000 eV/Ang
+  volume of cell        = 597.798849 Ang^3
+
+reached required accuracy - stopping structural energy minimisation
+General timing and accounting informations for this job:
+  Total CPU time used (sec): 73.42
+------------------------------------------------------------

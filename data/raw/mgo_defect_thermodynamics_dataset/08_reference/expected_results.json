@@ -1,0 +1,71 @@
+{
+  "warning": "Synthetic answer key for validation; try the exercise before using it.",
+  "bulk": {
+    "final_energy_eV": -409.6,
+    "natoms": 64,
+    "converged": true,
+    "band_gap_eV": 7.2
+  },
+  "convergence": {
+    "encut_reference_eV_8atom": -102.4014,
+    "kpoint_reference_eV_8atom": -102.4013,
+    "threshold_meV_per_atom": 1.0,
+    "minimum_encut_meeting_threshold_eV": 500,
+    "minimum_kmesh_meeting_threshold": [
+      5,
+      5,
+      5
+    ]
+  },
+  "structure_search": {
+    "selected": {
+      "0": "unperturbed",
+      "1": "bond_compress_0.80",
+      "2": "bond_expand_1.20",
+      "3": "rattled_0.10A",
+      "4": "bond_compress_0.80"
+    },
+    "intentionally_unconverged": "q+3/unperturbed"
+  },
+  "final_defects": {
+    "energies_E0_eV": {
+      "0": -395.8,
+      "1": -396.66,
+      "2": -397.36,
+      "3": -397.9,
+      "4": -398.28
+    },
+    "corrections_eV": {
+      "0": 0.0,
+      "1": 0.06,
+      "2": 0.16,
+      "3": 0.3,
+      "4": 0.48
+    },
+    "mg_rich_formation_energy_intercepts_eV": {
+      "0": 4.0,
+      "1": 3.2,
+      "2": 2.6,
+      "3": 2.2,
+      "4": 2.0
+    },
+    "o_rich_formation_energy_intercepts_eV": {
+      "0": 16.8,
+      "1": 16.0,
+      "2": 15.4,
+      "3": 15.0,
+      "4": 14.8
+    },
+    "charge_transition_levels_eV_above_VBM": {
+      "epsilon(+4/+3)": 0.2,
+      "epsilon(+3/+2)": 0.4,
+      "epsilon(+2/+1)": 0.6,
+      "epsilon(+1/0)": 0.8
+    }
+  },
+  "dielectric": {
+    "recommended_epsilon_electronic": 3.05,
+    "recommended_epsilon_ionic": 6.75,
+    "recommended_epsilon_total": 9.8
+  }
+}

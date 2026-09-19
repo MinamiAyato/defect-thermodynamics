@@ -1,0 +1,16 @@
+{
+  "synthetic": true,
+  "formula": "Mg32O32",
+  "natoms": 64,
+  "supercell": [
+    2,
+    2,
+    2
+  ],
+  "lattice_parameter_A": 4.212,
+  "energy_reference": "E0",
+  "energy_eV": -409.6,
+  "vbm_eV": 0.0,
+  "cbm_eV": 7.2,
+  "band_gap_eV": 7.2
+}

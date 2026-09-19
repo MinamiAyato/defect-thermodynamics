@@ -1,0 +1,54 @@
+
+        vasp.synthetic 6.x                         17Sep2026
+        ------------------------------------------------------------
+        SYNTHETIC TRAINING OUTPUT — not produced by VASP
+        SYSTEM = MgO_dielectric_ENCUT_400_K2x2x2
+        INCAR:
+          ENCUT = 400
+          EDIFF  = 1.0E-06
+          EDIFFG = -2.0E-02
+          ISMEAR = 0
+          SIGMA  = 0.05
+          ISPIN  = 2
+          IBRION = 2
+          NSW    = 120
+
+        POSCAR: ions per type = 32 32
+        NIONS = 64
+        NELECT = 640.000
+        NKPTS = 8
+        k-point mesh = 2 2 2
+
+        Iteration   1(  1)  E0= -408.74188300  d E = -8.42117E-01
+        Iteration   2(  1)  E0= -409.41019500  d E = -6.68312E-01
+        Iteration   3(  1)  E0= -409.56235600  d E = -1.52161E-01
+        Iteration   4(  1)  E0= -409.58279300  d E = -2.04370E-02
+        Iteration   5(  1)  E0= -409.58400000  d E = -1.20700E-03
+
+        POSITION                                       TOTAL-FORCE (eV/Angst)
+        -----------------------------------------------------------------------------------
+          0.00000  0.00000  0.00000          0.000000  0.000000  0.000000
+          2.10600  2.10600  2.10600        - 0.000000  0.000000  0.000000
+        -----------------------------------------------------------------------------------
+        total drift:                              0.000001 -0.000002  0.000001
+
+          energy  without entropy= -409.58367900  energy(sigma->0) = -409.58400000
+          free  energy   TOTEN  = -409.58411400 eV
+          final energy (E0)     = -409.58400000 eV
+          number of ionic steps = 0
+          maximum force         = 0.000000 eV/Ang
+          volume of cell        = 597.798849 Ang^3
+
+MACROSCOPIC STATIC DIELECTRIC TENSOR (including local field effects in DFT)
+   2.91000  0.00000  0.00000
+   0.00000  2.91000  0.00000
+   0.00000  0.00000  2.91000
+IONIC CONTRIBUTION TO DIELECTRIC TENSOR
+   6.42000  0.00000  0.00000
+   0.00000  6.42000  0.00000
+   0.00000  0.00000  6.42000
+TOTAL STATIC DIELECTRIC CONSTANT (isotropic average) = 9.33000
+        reached required accuracy - stopping structural energy minimisation
+        General timing and accounting informations for this job:
+          Total CPU time used (sec): 73.42
+        ------------------------------------------------------------

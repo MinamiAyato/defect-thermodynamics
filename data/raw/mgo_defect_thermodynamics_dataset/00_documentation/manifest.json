@@ -1,0 +1,1302 @@
+{
+  "dataset": "mgo_defect_thermodynamics_dataset",
+  "synthetic": true,
+  "file_count_excluding_manifest": 259,
+  "files": [
+    {
+      "path": "00_documentation/schema_and_units.md",
+      "bytes": 725,
+      "sha256": "d75a0c1b3e7f429ebe921b9dc740aa1639d4f8bb984371c89af68841cd168ca4"
+    },
+    {
+      "path": "00_documentation/validation_report.json",
+      "bytes": 329,
+      "sha256": "86cebe8c59cb9ef68827619a672309bbaefa8d517d34256c3e45b6f47dcbece6"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_350/INCAR",
+      "bytes": 85,
+      "sha256": "be8027dad7b486c8a376ef724adffea2a4e5b134e8f54acde037d8bc498eb88b"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_350/KPOINTS",
+      "bytes": 35,
+      "sha256": "37c762ac822ae18c3c1abb39def8c008a1afc3beb75a58971376df313da597cd"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_350/OUTCAR",
+      "bytes": 1642,
+      "sha256": "7fa678173411a486ea3ce6d50cd9d349d4b6bc520ab645a39910b70c1d8a626f"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_350/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_400/INCAR",
+      "bytes": 85,
+      "sha256": "da09b185bc3cd242ae641913cdf25139a7e4c0c6da7aa39e6e2970dc35fa0fe4"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_400/KPOINTS",
+      "bytes": 35,
+      "sha256": "37c762ac822ae18c3c1abb39def8c008a1afc3beb75a58971376df313da597cd"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_400/OUTCAR",
+      "bytes": 1642,
+      "sha256": "2b3a07a56fc4aa8e1339ffc4e30804da654a169a1963a72c0e4de8d59d6ca200"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_400/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_450/INCAR",
+      "bytes": 85,
+      "sha256": "ce8c032e14b9eba7f18000ff4020565b5bde5589d13245b70dcb69f61407bc3f"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_450/KPOINTS",
+      "bytes": 35,
+      "sha256": "37c762ac822ae18c3c1abb39def8c008a1afc3beb75a58971376df313da597cd"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_450/OUTCAR",
+      "bytes": 1642,
+      "sha256": "66f2abb4432fd27cb831954194c54c8795c59f2383a67ceeb8288eb7f720b48d"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_450/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_500/INCAR",
+      "bytes": 85,
+      "sha256": "6f526ebf3d3c53e216dfaf9365390a24f079bb354d881c2f8e4c1f5b5ff7708e"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_500/KPOINTS",
+      "bytes": 35,
+      "sha256": "37c762ac822ae18c3c1abb39def8c008a1afc3beb75a58971376df313da597cd"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_500/OUTCAR",
+      "bytes": 1642,
+      "sha256": "05896369d3860ce7e115fcff0fedec5e404c6392a976c8f30dd69076295cae25"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_500/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_550/INCAR",
+      "bytes": 85,
+      "sha256": "7c911e1fb0216ee60b21c456df351cda03df587449571b8c61b7440c5e023685"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_550/KPOINTS",
+      "bytes": 35,
+      "sha256": "37c762ac822ae18c3c1abb39def8c008a1afc3beb75a58971376df313da597cd"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_550/OUTCAR",
+      "bytes": 1642,
+      "sha256": "f1c199fecab230e4f198fd3806a589f728aa3569b226244c3a7b4c9698aef1a5"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_550/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_600/INCAR",
+      "bytes": 85,
+      "sha256": "895aab9bd9d4381c3e1d845d1f1832c5a702b5970d62d76e96a4df1ee5cc8819"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_600/KPOINTS",
+      "bytes": 35,
+      "sha256": "37c762ac822ae18c3c1abb39def8c008a1afc3beb75a58971376df313da597cd"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_600/OUTCAR",
+      "bytes": 1642,
+      "sha256": "88d6b7a284f74334fcc140180f5d773928ec53f0cc91049d29f52dc7509ed98f"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_600/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_650/INCAR",
+      "bytes": 85,
+      "sha256": "3a3373affaeb3b032e79d8e5028e4482b795f98b5a41cbacb2ffe4cb11dff207"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_650/KPOINTS",
+      "bytes": 35,
+      "sha256": "37c762ac822ae18c3c1abb39def8c008a1afc3beb75a58971376df313da597cd"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_650/OUTCAR",
+      "bytes": 1642,
+      "sha256": "0acd46ed6b89d0b84c7269e6da6acdbf3f80b4656ad7c0746911e73a601b58ea"
+    },
+    {
+      "path": "01_bulk_convergence/encut/ENCUT_650/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/encut/run_index.csv",
+      "bytes": 238,
+      "sha256": "c45d22fe72ff74232b8a1a6a681b31f474b8df1db43c60d2811d8a7306146951"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_2x2x2/INCAR",
+      "bytes": 87,
+      "sha256": "29c96c8a3795efe739cd3a8f67af393cd18bb289f720bd802214f03b28895fe0"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_2x2x2/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_2x2x2/OUTCAR",
+      "bytes": 1642,
+      "sha256": "a9675441ce8786eebd6ea6353d8655542dc3e3f6ab9af2b48cad35eb80c700b7"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_2x2x2/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_3x3x3/INCAR",
+      "bytes": 87,
+      "sha256": "d6b3656fd11a1cb6ca7754c1e273c6a9f0f58a2edb9571a6af905244ce172a0f"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_3x3x3/KPOINTS",
+      "bytes": 35,
+      "sha256": "912f786384a294a1bb3fee73a86bead39e1c14570d752d8cc45e0924d3d4d0c0"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_3x3x3/OUTCAR",
+      "bytes": 1643,
+      "sha256": "9477e497ddf4999b272473ea26370a2451e0b8c042e146aac389788eb23650ee"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_3x3x3/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_4x4x4/INCAR",
+      "bytes": 87,
+      "sha256": "d2084585522ec6290dd2ed6ac3e0c0af970d55deb4aadbb2fc9c29f199b25628"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_4x4x4/KPOINTS",
+      "bytes": 35,
+      "sha256": "54ae1e1e1e0722bd898e7a9654935f266e872a0b19a01695c6196b084ddb5807"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_4x4x4/OUTCAR",
+      "bytes": 1643,
+      "sha256": "21b4c65957304156a0d11228c77427d037b3ef52ea085963ef3433e86e34ba5e"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_4x4x4/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_5x5x5/INCAR",
+      "bytes": 87,
+      "sha256": "8bddf369aad15135f3e3888d8be0a6624daedfb4f1950c9a8abde14c9a0fb9fc"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_5x5x5/KPOINTS",
+      "bytes": 35,
+      "sha256": "16a1d3e92386371619c4a880074f5f4b002256dfdafe3f95c723453cc1a0f720"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_5x5x5/OUTCAR",
+      "bytes": 1644,
+      "sha256": "c76205f50b6442e806b4c53198c28e8cdfba797c18c6ef37a51ff1a8e0fbea0a"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_5x5x5/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_6x6x6/INCAR",
+      "bytes": 87,
+      "sha256": "8a1b1155dfb9dd6409c3aaa02b57406f37a68390ea2f21730b7b80c300cb2ab6"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_6x6x6/KPOINTS",
+      "bytes": 35,
+      "sha256": "84bfa4cfc7688ab136a5f55f492b80a6a213af47be6c3d23789f9fddad2d70a9"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_6x6x6/OUTCAR",
+      "bytes": 1644,
+      "sha256": "ad4a3ec8275b7c84869160791ead7eb3acba23451100127d3b8a062e4c214294"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_6x6x6/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_8x8x8/INCAR",
+      "bytes": 87,
+      "sha256": "8078eea0efaf2c68c6861aa9d0d3834595a9fec31df70f41ca440997141c4ecc"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_8x8x8/KPOINTS",
+      "bytes": 35,
+      "sha256": "37c762ac822ae18c3c1abb39def8c008a1afc3beb75a58971376df313da597cd"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_8x8x8/OUTCAR",
+      "bytes": 1644,
+      "sha256": "d31528e55b855337867a7f279c8025811282b0557e586922f51f22a09fe86ef3"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/KPOINTS_8x8x8/POSCAR",
+      "bytes": 351,
+      "sha256": "36d274231a530b59065a2574640c6e79c023d8642ac67d2dc757a7308c2e1200"
+    },
+    {
+      "path": "01_bulk_convergence/kpoints/run_index.csv",
+      "bytes": 235,
+      "sha256": "3523ff06fad33f8a56ff5844235279bcd3d86c975d6821f38c55001c973be6f2"
+    },
+    {
+      "path": "02_bulk_relaxed/CONTCAR",
+      "bytes": 2245,
+      "sha256": "c0deb75d83623286090ee8d80fc15b5ce60b7456457137dca41827ee49524e06"
+    },
+    {
+      "path": "02_bulk_relaxed/INCAR",
+      "bytes": 123,
+      "sha256": "35495fbd527872a41090e7745a4693f50c7fe7ed321aba12ea3bede46af76799"
+    },
+    {
+      "path": "02_bulk_relaxed/KPOINTS",
+      "bytes": 35,
+      "sha256": "912f786384a294a1bb3fee73a86bead39e1c14570d752d8cc45e0924d3d4d0c0"
+    },
+    {
+      "path": "02_bulk_relaxed/OUTCAR",
+      "bytes": 1647,
+      "sha256": "31663e4a975e36ca73060819fb0fed9781146d537e3c840717d0552cf128438b"
+    },
+    {
+      "path": "02_bulk_relaxed/POSCAR",
+      "bytes": 2245,
+      "sha256": "97c00c606c52fe49ce80820a3568c87eb6c0b4d04561ec0d1d6f8c8bc1a006fc"
+    },
+    {
+      "path": "02_bulk_relaxed/metadata.json",
+      "bytes": 245,
+      "sha256": "1235d829f4102863635bba1ded672587df400d37fc98fef3c2bde2720da9845a"
+    },
+    {
+      "path": "02_bulk_relaxed/vasprun.xml",
+      "bytes": 716,
+      "sha256": "0a41975a29421418d77439a290943dd525a09e0cc755d66e2379b4da72bc53f5"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_compress_0.80/CONTCAR",
+      "bytes": 2252,
+      "sha256": "9194a07634e5f75e2d3d9569399a0bc1c800292f3ea1db00b4a3e8381b2ee233"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_compress_0.80/INCAR",
+      "bytes": 111,
+      "sha256": "d7fcde401c0c16e9bbeb9445011de74f15d8b2602c73b5ab4e479a067d208ca5"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_compress_0.80/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_compress_0.80/OUTCAR",
+      "bytes": 1654,
+      "sha256": "c1641de24392c5dedaeb58b1bf892d826cd9d9796f402b4bfe5dba9c0443e4c4"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_compress_0.80/POSCAR",
+      "bytes": 2252,
+      "sha256": "fa3f6dbac4720bc7be56f6700c51facc18b816e5f4547cf039da1aed88d0ef37"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_compress_0.80/metadata.json",
+      "bytes": 227,
+      "sha256": "023339e8c3efaf941a5695666388b924c5f1ab561bac435ae8b873d7dd770b21"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_expand_1.20/CONTCAR",
+      "bytes": 2250,
+      "sha256": "d01ff7c99678fdef8de2e2b8196497fa1961314d7d83ce1426b27e462b6860d9"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_expand_1.20/INCAR",
+      "bytes": 109,
+      "sha256": "15bcbcce44c73132238e870594559e8a648c7d7043d47a2fc39531693e7c0b8e"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_expand_1.20/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_expand_1.20/OUTCAR",
+      "bytes": 1652,
+      "sha256": "8bf01d03d296b568f55729a50b550bf79828675f1a10a17e1511025d50821d87"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_expand_1.20/POSCAR",
+      "bytes": 2250,
+      "sha256": "474e0394bae3f8bd6bdced938d9708a44871c96fd32c01bbd09916792dbc538e"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/bond_expand_1.20/metadata.json",
+      "bytes": 225,
+      "sha256": "febc7bd2bcaf62534dce6401023d1a46c706e5beb57c1389c0bafb917793847e"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/candidate_index.csv",
+      "bytes": 190,
+      "sha256": "583d55313e081566722c7dd104067ec7db0cc72b05c2436a4c4c327896aef457"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/rattled_0.10A/CONTCAR",
+      "bytes": 2247,
+      "sha256": "96be23ea51a11c016777e1d7da99e55c8819820805ee95cb04c3bce8135709c7"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/rattled_0.10A/INCAR",
+      "bytes": 106,
+      "sha256": "a119903589bcdcbdcb9f1f1f4ee110fc5faa72c68af3a4ab14e24d79cb1e553c"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/rattled_0.10A/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/rattled_0.10A/OUTCAR",
+      "bytes": 1649,
+      "sha256": "6ec9cb8fcdb6362177d3b2bd08732ec1628c7146a5d829838c03cb84d5d7fab0"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/rattled_0.10A/POSCAR",
+      "bytes": 2247,
+      "sha256": "96b8a0d1c7304a656bf8b8a84b7f07d5f933fde5f96ac27892b220b628af73c5"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/rattled_0.10A/metadata.json",
+      "bytes": 222,
+      "sha256": "9eb97831f29436c6da321114994ef2ecb00219105f79bcd60d00acd43faec29a"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/unperturbed/CONTCAR",
+      "bytes": 2245,
+      "sha256": "7da27adbc560bba0a76f21d9bedb5478cf0e8f84e8967a212fd1ef0e9cd129e6"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/unperturbed/INCAR",
+      "bytes": 104,
+      "sha256": "bd395b76bc43cc429d749782286f7038de40a5e933d2d1d31ebbfb4777ae0c7b"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/unperturbed/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/unperturbed/OUTCAR",
+      "bytes": 1647,
+      "sha256": "e50d158c75b1a004c75a70d801d28dc94ca215f88182525c229534f79e275105"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/unperturbed/POSCAR",
+      "bytes": 2245,
+      "sha256": "86c5fd3bb1fe5247843a3f57b77897741f1aae3edc10013dd2d2a09e75fc270c"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+0/unperturbed/metadata.json",
+      "bytes": 220,
+      "sha256": "cabd981e919438a3ac6b6f56abe544e1ed5acbf4ce71b426957027b8470c45ff"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_compress_0.80/CONTCAR",
+      "bytes": 2252,
+      "sha256": "b486b4a8ee99b0e7f06dcd432791762d495fc11da85a8ea34b2ec05d5298e3ce"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_compress_0.80/INCAR",
+      "bytes": 111,
+      "sha256": "39e400cd765d72918d82a48c83cc3356d23a80c625442a2311b35768a1ea5068"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_compress_0.80/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_compress_0.80/OUTCAR",
+      "bytes": 1654,
+      "sha256": "a25327f20c75dd729f5aad860b34891020ea378c749e133d09a7347704fda34d"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_compress_0.80/POSCAR",
+      "bytes": 2252,
+      "sha256": "34cc3712acc6f613710e768e5282ec7e51da2ae715cae2774f4a94f88b4414eb"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_compress_0.80/metadata.json",
+      "bytes": 227,
+      "sha256": "443ac60c40abf139b69f73fb53f1ab779b4ca206b4668b89a7155d1399688b0d"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_expand_1.20/CONTCAR",
+      "bytes": 2250,
+      "sha256": "43a364be56b15950c9cb480f3daa8c086c39fdb4fe575052f7c6e03e9226b1db"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_expand_1.20/INCAR",
+      "bytes": 109,
+      "sha256": "bc13c036c2ecdadad68701c6d8d4b39939c43beb6f2b2eddc5dbb008ab694fd3"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_expand_1.20/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_expand_1.20/OUTCAR",
+      "bytes": 1652,
+      "sha256": "5624b2ff5bfbeb4e727e65f7d1a25e0f339f217381aafa212df7b40566c08740"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_expand_1.20/POSCAR",
+      "bytes": 2250,
+      "sha256": "501e15d70a4421aec09114ee8d480f98ff39fb63722349edbecb11b05a9b4f2c"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/bond_expand_1.20/metadata.json",
+      "bytes": 225,
+      "sha256": "a1318c1f205892a64cd0e8dd0c0f666b4506ac9efea2f2ed267914497dbe4652"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/candidate_index.csv",
+      "bytes": 190,
+      "sha256": "0e725d0e401ed3b0d12161a8077fa0b20055d9f926eedd8612225b687a0ed838"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/rattled_0.10A/CONTCAR",
+      "bytes": 2247,
+      "sha256": "de03aa981329643d055d448570f7015ea8bd2cf6358599eaae3e51d20a70db46"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/rattled_0.10A/INCAR",
+      "bytes": 106,
+      "sha256": "06b7cf22ef7db44c6fd3c5de1e5679369c5266128cea1de595fcdcfa7b02e201"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/rattled_0.10A/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/rattled_0.10A/OUTCAR",
+      "bytes": 1649,
+      "sha256": "8747654aa783908270fc977e8fe0cb58788cce7bf62cd1d20565c891c4976394"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/rattled_0.10A/POSCAR",
+      "bytes": 2247,
+      "sha256": "4d632df410a5a43b65fac682c406370d0b72139cc6c3f53b41cf34b935a17f97"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/rattled_0.10A/metadata.json",
+      "bytes": 222,
+      "sha256": "2a9addc73c9b1127b2b656e9fd4a17dd5d598faf2e0d0f15af11a5d978108fad"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/unperturbed/CONTCAR",
+      "bytes": 2245,
+      "sha256": "bd0e217bbd0d5807fccfbd829c2c437b239334e2c5cb310a9502bb3c6f6ce004"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/unperturbed/INCAR",
+      "bytes": 104,
+      "sha256": "205db1eea941ebd83ad737d835abd9c2bc75b6eb8d3da82289064cf1b9c6f2d3"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/unperturbed/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/unperturbed/OUTCAR",
+      "bytes": 1647,
+      "sha256": "f0e1462d9a9a454d5756eaeb8801ffec26bad29d7e7b81ef80288b3096124045"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/unperturbed/POSCAR",
+      "bytes": 2245,
+      "sha256": "29808981d0af4a2e389e4d45e0efb6092dc4a359c5ec6047af281696f840edab"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+1/unperturbed/metadata.json",
+      "bytes": 220,
+      "sha256": "c151c8247fddfc3a1c1df910cabce0e1c9660eca13fbae7d1ae8128bba5544ea"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_compress_0.80/CONTCAR",
+      "bytes": 2252,
+      "sha256": "a8b8b4b39a02d7845abedaee694714766fc10fc662092277b76fb49c0b0d7a23"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_compress_0.80/INCAR",
+      "bytes": 111,
+      "sha256": "2fb836d219c6820520fb97fc9ed777ce9279a3042acca9e27fe375d00bca3fa7"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_compress_0.80/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_compress_0.80/OUTCAR",
+      "bytes": 1654,
+      "sha256": "74ccfb69913605902ca03721e967ff2af1b559d80dfd3fc544298aa7db70db0f"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_compress_0.80/POSCAR",
+      "bytes": 2252,
+      "sha256": "fbd52b8f4b775abfb5942844a4265db3c20e8a0b5ba8bdcf0fa58bfd4641f5c4"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_compress_0.80/metadata.json",
+      "bytes": 227,
+      "sha256": "4e67b3f6715ca92e5a773e62e2816de80a2407a64a3a4d367426e9371031fa27"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_expand_1.20/CONTCAR",
+      "bytes": 2250,
+      "sha256": "14cd2d9f91182047ec2ad1a4251f36f16353d4524fc963c04efed9d3b9960960"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_expand_1.20/INCAR",
+      "bytes": 109,
+      "sha256": "9e97188b7f0d695a60fdb1f5221c4ab4afddf3e3ea0494e02373676bcba9d82e"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_expand_1.20/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_expand_1.20/OUTCAR",
+      "bytes": 1652,
+      "sha256": "e87f68be9b2342664d8d6584e8f4f25725039d0361ab4bed0a7042dfa390d243"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_expand_1.20/POSCAR",
+      "bytes": 2250,
+      "sha256": "6f8c3a52301249b10afc13f6f173fc894bcee4a14adf33ac271a72a002a9d3ec"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/bond_expand_1.20/metadata.json",
+      "bytes": 225,
+      "sha256": "d343144354cc85fa1c67fa48460ab3324ece727cb8b23a1b9e718745e62a90ad"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/candidate_index.csv",
+      "bytes": 190,
+      "sha256": "f57ca7931b37fd4bd85c173d3e5e3e1d6eb6d74d6b23fdcc95346069ac728076"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/rattled_0.10A/CONTCAR",
+      "bytes": 2247,
+      "sha256": "148fa15501cb2ee9d03737f4f80a1042df3843f0fd1c0ddbd2789575e1017caa"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/rattled_0.10A/INCAR",
+      "bytes": 106,
+      "sha256": "fdc676696548174ce2186a0d1674dcc26be6ded01aded95bb5c9288d89df2c78"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/rattled_0.10A/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/rattled_0.10A/OUTCAR",
+      "bytes": 1649,
+      "sha256": "6fda8190a09f02ee183f22670cc97bf177cc85615380f8fa618dec3579d46625"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/rattled_0.10A/POSCAR",
+      "bytes": 2247,
+      "sha256": "51ff573fd87ec7a11c9cf87c3862e62e66ec4d97a382b08de91c400d13da1dbe"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/rattled_0.10A/metadata.json",
+      "bytes": 222,
+      "sha256": "98c82c9a27bff889c9c4e6d378d89e7f661946d152522a260b3fbdd5a3ab62a5"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/unperturbed/CONTCAR",
+      "bytes": 2245,
+      "sha256": "5d92f2864fe63e2cfe1c649a97d72b9976e222ff000b69f10c8203440cc6bf1c"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/unperturbed/INCAR",
+      "bytes": 104,
+      "sha256": "5ff1b19b612fb017203866725646f6cbe88a0ab1da1b07d7aa44888a64671420"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/unperturbed/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/unperturbed/OUTCAR",
+      "bytes": 1647,
+      "sha256": "1b3e3fb911f570d0ccab4716dd3bf79b7f22370d9debfc77df0a7b27ceb63de5"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/unperturbed/POSCAR",
+      "bytes": 2245,
+      "sha256": "4f183be70b0cfb04f48e0a34f018e3d794c43b676697d3bea252ef4f975d1786"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+2/unperturbed/metadata.json",
+      "bytes": 220,
+      "sha256": "002bf067a437d66383bfef21b156e166f9572d47ef4dd7215626d46ce4a694eb"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_compress_0.80/CONTCAR",
+      "bytes": 2252,
+      "sha256": "d52e5e5783325a0b7318e2b2c028cdf3dc06cded05150059b704f5def4fffef3"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_compress_0.80/INCAR",
+      "bytes": 111,
+      "sha256": "17a475811665604ad3bbc94c20feaa689792f6289f7cc5f12b1ca30e50313a39"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_compress_0.80/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_compress_0.80/OUTCAR",
+      "bytes": 1654,
+      "sha256": "05077ec6fad5752e81899e3c99bb5a44e87c65132b106f5cfe86f3eb08dc7070"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_compress_0.80/POSCAR",
+      "bytes": 2252,
+      "sha256": "f5c4797a2b12c3d8e7a79dc03f0b18a19b2f4787d45f2ded0eb20df2162d12c5"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_compress_0.80/metadata.json",
+      "bytes": 227,
+      "sha256": "ed6d45218d04b243171bde6f0aafcfa60f84e6c4919dfba5e2b794eeb248cbe7"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_expand_1.20/CONTCAR",
+      "bytes": 2250,
+      "sha256": "1a6963dc0079d392803e5e59a9a41188a0e8142ee87dc31aaaad04b253225971"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_expand_1.20/INCAR",
+      "bytes": 109,
+      "sha256": "3e43e37387e19c045f4f5a519592563677afa1b30fb2fc18ee27dbd0f766c93a"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_expand_1.20/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_expand_1.20/OUTCAR",
+      "bytes": 1652,
+      "sha256": "3d25095c180065ded74a13f269f8f455da1b8ecc869555084486ff19ddf4531b"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_expand_1.20/POSCAR",
+      "bytes": 2250,
+      "sha256": "634b9fb21c6865e0212574c45f078f8baec8a2c1d2cf420133bda473a21fa4f9"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/bond_expand_1.20/metadata.json",
+      "bytes": 225,
+      "sha256": "2ed7c0520743d066d02c643dab1d7623c0b6130135fcc3a15009766a1ea32016"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/candidate_index.csv",
+      "bytes": 190,
+      "sha256": "3643779950cc1421da8a0b94804b53ad4448759044018ee10efe1efed4ce2b7f"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/rattled_0.10A/CONTCAR",
+      "bytes": 2247,
+      "sha256": "3b7dae99daf74e2534fda5f99eda914c36c078a065682a7e8945067336da0a0c"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/rattled_0.10A/INCAR",
+      "bytes": 106,
+      "sha256": "494269c2b000129be0bf390f670386edf164357cbb5ac13b568ac491925e3252"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/rattled_0.10A/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/rattled_0.10A/OUTCAR",
+      "bytes": 1649,
+      "sha256": "b5048728cb11efd7f2e4ad6340ded2aa3464c6e57d2383be0cd1f1a8503eafba"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/rattled_0.10A/POSCAR",
+      "bytes": 2247,
+      "sha256": "01caef76bcada222c73d05ddf3de8a3cc2b269ef8205798cd25674fe1f57f5c5"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/rattled_0.10A/metadata.json",
+      "bytes": 222,
+      "sha256": "ae4b71de085210a623c388415cfdac6a86bab730b5083101819699f0a5e3fe89"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/unperturbed/CONTCAR",
+      "bytes": 2245,
+      "sha256": "690e5bf669ac380b9747861790e2c7533d336dc734dc42f952b2a4639fd7706a"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/unperturbed/INCAR",
+      "bytes": 104,
+      "sha256": "9e8ee005070c8502988eededb89bbd1c6ce7e30dad9eb69a6f44049b7c049520"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/unperturbed/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/unperturbed/OUTCAR",
+      "bytes": 1623,
+      "sha256": "816ae8d86411f841d1dafbc837033a34a484328636941e723ad7c80b9ffcb714"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/unperturbed/POSCAR",
+      "bytes": 2245,
+      "sha256": "17918a7cc005b2614d7b31f671673131dacca47e61fa5ebea906beddb0e0045c"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+3/unperturbed/metadata.json",
+      "bytes": 221,
+      "sha256": "697fc03d6b57c30c365fbe1fb01d3c07e96ce76cfca73c38702434cfa89c0bdf"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_compress_0.80/CONTCAR",
+      "bytes": 2252,
+      "sha256": "229292ffdc03002d4565d3ca86ce3645da15df72f1889552fd7421d6d05da920"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_compress_0.80/INCAR",
+      "bytes": 111,
+      "sha256": "4c965418a6e8a93ac87d4a398107303074ff74299befcb1539199876e11c6658"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_compress_0.80/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_compress_0.80/OUTCAR",
+      "bytes": 1654,
+      "sha256": "4987d4e5aa1b259a4fdacd6acbf7e1c6d944e1d6453ebd175d4091f2190a275d"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_compress_0.80/POSCAR",
+      "bytes": 2252,
+      "sha256": "920099a5eed2092096706bf41fe338bf0d55e71695bd591902e088f7dee11711"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_compress_0.80/metadata.json",
+      "bytes": 227,
+      "sha256": "7a16fa60a4b50ae76cda195250fbb822636b6422aabbcbbe6b4af0c438281cc1"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_expand_1.20/CONTCAR",
+      "bytes": 2250,
+      "sha256": "809e37b1239f389dfeeffc7ea7bd926864b698fdd168283bf773b7fdfabd6c0a"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_expand_1.20/INCAR",
+      "bytes": 109,
+      "sha256": "ef05e93ed40cd8c9146dea273fae7c2c02c46f9e9234cdf582a815edf9c7bca0"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_expand_1.20/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_expand_1.20/OUTCAR",
+      "bytes": 1652,
+      "sha256": "9eaf588659ebae619e7990f376eee5d8ec1f0f810274aa983c329a1253dfe6bb"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_expand_1.20/POSCAR",
+      "bytes": 2250,
+      "sha256": "5ca659dbe240d06bbd6695225ea91e4a7719389580def3e67cfe2ecfd9244ac4"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/bond_expand_1.20/metadata.json",
+      "bytes": 225,
+      "sha256": "1994bb40d6fd5a56719e3f397d1430afa3843b0f4ebedbe6a9b079cd33481f21"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/candidate_index.csv",
+      "bytes": 190,
+      "sha256": "a39e1eb3987ebbce1acb6d410c09c0053aba27fce0dad2870f768a03eee21ac5"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/rattled_0.10A/CONTCAR",
+      "bytes": 2247,
+      "sha256": "4a92384339664f09a9d9e7211d152938e5f8ee60930003561c5a70dbd9a54c5b"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/rattled_0.10A/INCAR",
+      "bytes": 106,
+      "sha256": "a5fd9eb7f4c82990e06cd8436755577d30cd25cca953256e47f27ce1d252b555"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/rattled_0.10A/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/rattled_0.10A/OUTCAR",
+      "bytes": 1649,
+      "sha256": "f1eacab20cb3400dc8f9ef4b907fad0d8c0cbce572c484688f4ede31c0f78514"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/rattled_0.10A/POSCAR",
+      "bytes": 2247,
+      "sha256": "944336d1edbe0834bd173fb4079accef2717455d655bcffc78dbe2614efc3dcf"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/rattled_0.10A/metadata.json",
+      "bytes": 222,
+      "sha256": "bde8324e8a05a1a83b8d5bee69e7230cb4f2f94917d56e71ff2a64123c99ea02"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/unperturbed/CONTCAR",
+      "bytes": 2245,
+      "sha256": "c0ecab0c898b7a7a64d06e28d801d043ef35ae925f19f991d18e88230f60280e"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/unperturbed/INCAR",
+      "bytes": 104,
+      "sha256": "dbb02f700009871c9523398decfbbdc3c47c37ec8fd4336942a8909c7a7ab605"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/unperturbed/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/unperturbed/OUTCAR",
+      "bytes": 1647,
+      "sha256": "7f60225b6e58cae55d856819e028ff84536b23b60f84d1203393ff12691e0f06"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/unperturbed/POSCAR",
+      "bytes": 2245,
+      "sha256": "125812766f9d7246db43f03fb2925dd4f614effa77d35bfe6ee704286ad1e28e"
+    },
+    {
+      "path": "03_defect_structure_search/Mg_O/q+4/unperturbed/metadata.json",
+      "bytes": 220,
+      "sha256": "d3169cdcd59b9ea585cee714a1584675e493cbcb734c5bf866268ae195dc5ed1"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+0/CONTCAR",
+      "bytes": 2249,
+      "sha256": "8a02759fdec249f4e8e0539cf258070bc06cdaa5c4880f5706f999918228af17"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+0/INCAR",
+      "bytes": 129,
+      "sha256": "843e8110cdb624dd32122f60ef534e934576c49aed882fe5a1d76eb678c9df39"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+0/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+0/OUTCAR",
+      "bytes": 1641,
+      "sha256": "f771b5e86a1a14b8dc6b5b63452c77f400a71d1fd7e4a2d003afecc9112473f7"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+0/POSCAR",
+      "bytes": 2251,
+      "sha256": "6a654f6746f09da66ec79c8590ed8976207add7de74cc09f25c3db244b363cb4"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+0/correction.json",
+      "bytes": 241,
+      "sha256": "f61b3e6eca52ed4dc3e32b942dad73c02e258f98b14ec74e6e051f4b91184487"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+0/metadata.json",
+      "bytes": 306,
+      "sha256": "cc464904a319fb1e5d2fe6b1990e5ca45013e46f28c83b5862ebd85be801ab32"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+0/vasprun.xml",
+      "bytes": 610,
+      "sha256": "e0125c3d84cbecde35880ade1f49b848ec624fd31c4673a20d5ffb35e853c380"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+1/CONTCAR",
+      "bytes": 2249,
+      "sha256": "64c2bbf928250446190c851a1f41b013fbf6969ecb67fdaadb675cab0880f87b"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+1/INCAR",
+      "bytes": 129,
+      "sha256": "b765e1b0f6f09dfc8282f42fbbc159443d6954589fbd2592660e2efa236ca6c7"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+1/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+1/OUTCAR",
+      "bytes": 1641,
+      "sha256": "4401b8416521ca482eb7be749a3d8c84e24c603dd0f5d0f6c606b8ffa40b8b09"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+1/POSCAR",
+      "bytes": 2258,
+      "sha256": "75d5dc5da51beabaef60e33c035655666c4ae5a3919c5e7374aa7176a92d214b"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+1/correction.json",
+      "bytes": 246,
+      "sha256": "0102e4d9df2948b12d27656be9eef389877dad2c71a0fbf9476b845efcd3a45c"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+1/metadata.json",
+      "bytes": 313,
+      "sha256": "95c8f2c7e958a7d347bd20d2a0f0f97595640003bc97d7ea6235780fed05e5ff"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+1/vasprun.xml",
+      "bytes": 610,
+      "sha256": "c1066e9ced725efd875debae660b66a69f0da21aa69153cbf8a59b4e92f8af32"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+2/CONTCAR",
+      "bytes": 2249,
+      "sha256": "bdd89e26e18488222a9fead9e7181d49c5b9c810bcffe91a1eb6eced5a801bc8"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+2/INCAR",
+      "bytes": 129,
+      "sha256": "34d45130abbb3acf1971a0f6231d3e118afcd76052fc71ffb47f4702225fbb3d"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+2/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+2/OUTCAR",
+      "bytes": 1641,
+      "sha256": "3c64a089155539f310d36e29a9fc47e07ef123bea46976fef2c38c28c09d2b05"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+2/POSCAR",
+      "bytes": 2256,
+      "sha256": "f33cd21969a1ef2649db7f5f1179b8cc3c9a79feb5f089d2d7d7a46ed4503f99"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+2/correction.json",
+      "bytes": 244,
+      "sha256": "0701229f6451ca94d2e481634fed8e349acd02b8bc9feb3f5ae22e2b69bb33d4"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+2/metadata.json",
+      "bytes": 311,
+      "sha256": "ce42b569559b36163f5735d1e1903e05453cb759c6c13258154ada1024b8949b"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+2/vasprun.xml",
+      "bytes": 610,
+      "sha256": "643c6451748d2486dd7b7ce9aaa17ca678397548a815b4a475ee3da47fc52d30"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+3/CONTCAR",
+      "bytes": 2249,
+      "sha256": "adb87dc6a2449404deb41d9e88b436354d7b87c3ad54aa3dc95b9d3c69f5d424"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+3/INCAR",
+      "bytes": 129,
+      "sha256": "77bf17e26c56c72e0d5ed19fc2e3e1548a365688ea59bb68ee466a50f9074259"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+3/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+3/OUTCAR",
+      "bytes": 1641,
+      "sha256": "6baeefc87e52b7f21fb2273b258afbef2f79cd75f0db501e11a755f85f2b7bf7"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+3/POSCAR",
+      "bytes": 2253,
+      "sha256": "2eb5d83e061f94bd0affddcac996585f2f2a20ad1fd64a077ace22ca484b3acc"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+3/correction.json",
+      "bytes": 245,
+      "sha256": "9da6c9cd868a4f3b0e2edd62150cffe3a381c5d11cf8f8fbaceb9efba4ec223c"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+3/metadata.json",
+      "bytes": 308,
+      "sha256": "668b9781a5da0de10795f211beef0d991e64ecc3b1a08dd76d50d2111ba1b11b"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+3/vasprun.xml",
+      "bytes": 610,
+      "sha256": "de46c40fc49368e0967124727f40c55307b42a2e73aed20d7f94b39341f1a0ec"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+4/CONTCAR",
+      "bytes": 2249,
+      "sha256": "badb00401b15683db3925067332a9defbdc72a28feef2016717690aa7815ae85"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+4/INCAR",
+      "bytes": 129,
+      "sha256": "46dead5cbb9d6414ea50a1868b96693d6b5dda5ae7a83bfff03070f8379305d4"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+4/KPOINTS",
+      "bytes": 35,
+      "sha256": "1667668dee0e5454d98522a15e3c1367ec87e4537b4702c137c8c59424f82147"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+4/OUTCAR",
+      "bytes": 1641,
+      "sha256": "4f7fce3d9f9434f980abc8134663b8f9672102f1167368bee4948612d34e7c07"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+4/POSCAR",
+      "bytes": 2258,
+      "sha256": "f74541d404a9c3130bec040d4012c542b8fb5ff6baca6c6ca6840b3b9b7da904"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+4/correction.json",
+      "bytes": 244,
+      "sha256": "64c522637b391af5a7d29112b5fb8815fc50adcebedc01bd785f5647d3292ba5"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+4/metadata.json",
+      "bytes": 313,
+      "sha256": "4c94210efdfdc8a68e9d73a60b25520a4a6826bfc59f1fcf5ba8c534e3595f57"
+    },
+    {
+      "path": "04_final_defects/Mg_O/q+4/vasprun.xml",
+      "bytes": 610,
+      "sha256": "798ad6099c210df5bb28e5174f127423172f668dc6611131c6c9aa78881595a4"
+    },
+    {
+      "path": "05_chemical_potentials/growth_conditions.csv",
+      "bytes": 161,
+      "sha256": "fce8a2bf1599db6287ba9530ec5129b8be8f60a50cd608bb5a42c8ecf8991b25"
+    },
+    {
+      "path": "05_chemical_potentials/phase_energies.csv",
+      "bytes": 244,
+      "sha256": "802c189af3256cf95e043d3a058a7318a64deaca255f26bc712a1067bef56bcf"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/Mg/OUTCAR",
+      "bytes": 1614,
+      "sha256": "a208bcfc4f90aca91613adb7274ffab11043f4cad9afc454b56a4cc9634bc5e6"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/Mg/metadata.json",
+      "bytes": 116,
+      "sha256": "6a654ef51bacc699e0bfe22ddad5280753496e56dda4ccfe5df72c340cf7a388"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/Mg2O/OUTCAR",
+      "bytes": 1625,
+      "sha256": "575089b47d8ba4b90203cbf408973715cfadab1323993f137769318fc2ab75eb"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/Mg2O/metadata.json",
+      "bytes": 120,
+      "sha256": "829a1f35ac26023777f94d1b1fbf9c05d4834e1be75c2e8f3ac4e2e1e6cd5447"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/MgO/OUTCAR",
+      "bytes": 1624,
+      "sha256": "b03d21b3a0d89fdb37874ed53b27830f67e37b5d452feb1ec761d2e206e4cde1"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/MgO/metadata.json",
+      "bytes": 119,
+      "sha256": "6548cff6da2f0f292309c3c3ef685e315bfbc1c3cec0fa4386d8b5f8399d6ffd"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/MgO2/OUTCAR",
+      "bytes": 1625,
+      "sha256": "9b438256ef8a6099a7060d1d3b59bca4931ad87616ff0f09d68f9414725f9e53"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/MgO2/metadata.json",
+      "bytes": 120,
+      "sha256": "c11c8dec7a3718db78855a1b1706591c691865510ba0be1972d86e020b476af6"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/O2/OUTCAR",
+      "bytes": 1614,
+      "sha256": "00aa4baa042047e6eb8f4b267e96c54293ad0026498c1524e47dee6c3708551b"
+    },
+    {
+      "path": "05_chemical_potentials/phase_outputs/O2/metadata.json",
+      "bytes": 115,
+      "sha256": "54a87ffba4edaef688c0677788e0590cc74aea42e2e738ce07c3a8e2bbc0500c"
+    },
+    {
+      "path": "05_chemical_potentials/reference_states.json",
+      "bytes": 506,
+      "sha256": "ed875ecfdb0f5d295502b7beb4c68202a9a4851fd405b6ece05a2efddd51c269"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_400_K2x2x2/INCAR",
+      "bytes": 95,
+      "sha256": "c41af03a988cdf065137de1694912c0fd36e822a51e78715b2d5e00f0b9e1707"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_400_K2x2x2/OUTCAR",
+      "bytes": 2322,
+      "sha256": "9ebefd838f07586144bb7c39c5fcdc7bcdb1e9f7e34c9b88f499a1b79befe928"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_500_K2x2x2/INCAR",
+      "bytes": 95,
+      "sha256": "d00f9912b9c255a52edafa065d82ab36b6eeb43f04632d6a737e903c0e6b5dd0"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_500_K2x2x2/OUTCAR",
+      "bytes": 2322,
+      "sha256": "5d565206b4c87cb0e6f62fa55ee0f3104aaf28abb616758eb949b2c3726e01da"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_600_K2x2x2/INCAR",
+      "bytes": 95,
+      "sha256": "ce9c3ec0746e7f844a0bb8310b87c8e380f6f126c53654383f6bb25a78c07813"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_600_K2x2x2/OUTCAR",
+      "bytes": 2322,
+      "sha256": "7297ecf4166101bee90269d5633863e0f53c2246b4ec513578bf3d405b5f7822"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_600_K3x3x3/INCAR",
+      "bytes": 95,
+      "sha256": "3899a0734e27ff7dd7997785ee7e38f6cba2d47551b7891e76d63897c30b63ff"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_600_K3x3x3/OUTCAR",
+      "bytes": 2323,
+      "sha256": "fc8143f59163ac606983a84016d09e2642d97dc348fa1857fa1049766a3c9853"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_650_K3x3x3/INCAR",
+      "bytes": 95,
+      "sha256": "9e3ee2b52f7877bb7c11df29389fe9e8ef35fb872bac7aae508e8f75cb41a2eb"
+    },
+    {
+      "path": "06_dielectric_convergence/ENCUT_650_K3x3x3/OUTCAR",
+      "bytes": 2323,
+      "sha256": "d370c449133d3b57404dd778603e12177424730f326e49d32fb32dba5f8b55a1"
+    },
+    {
+      "path": "06_dielectric_convergence/dielectric_summary.csv",
+      "bytes": 328,
+      "sha256": "c4beeff7357e12702c95aca30dcc74e24bbb9c5ede3ee21c32d9ea7eb3bba9c3"
+    },
+    {
+      "path": "07_dos/DOSCAR",
+      "bytes": 4331,
+      "sha256": "be12d2999902584b20c9fbde52364dfb5d8ab088a58e87525f3af7fe4a332a45"
+    },
+    {
+      "path": "07_dos/band_edges.json",
+      "bytes": 234,
+      "sha256": "81a7d12485423c615e223afad48717836224ec2e4f3b2e30ff92634014d7e559"
+    },
+    {
+      "path": "07_dos/effective_dos_model.json",
+      "bytes": 307,
+      "sha256": "a62150c64467242a4e9af89b159adc7c0c4ac111afba0d0e89156b9af01a4e43"
+    },
+    {
+      "path": "07_dos/vasprun.xml",
+      "bytes": 709,
+      "sha256": "cb209b3c3da91598e25ee0886076e70fae1be05bd13a4abde3feed2350c10ce9"
+    },
+    {
+      "path": "08_reference/expected_results.json",
+      "bytes": 1572,
+      "sha256": "f5996879a00145157a26c4f47cfe9ae9c5b27662b568b185a87fdb735ec2667d"
+    },
+    {
+      "path": "08_reference/formation_energy_formula.txt",
+      "bytes": 115,
+      "sha256": "d6128fa67c978929fe89e6bcac931d3daebdb1da2632df313a64cf0174552dcc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3826,
+      "sha256": "fa424d596038ca12fa5b7722a4bb5ba54397d36ff4de35f5a76cfe16853aab03"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Core scientific computing
+numpy
+pandas
+scipy
+matplotlib
+
+# Jupyter
+jupyter
+ipykernel
+
+# Materials science
+pymatgen
+ase
+
+# Defect thermodynamics
+doped
+shakenbreak
+
+# Machine learning
+scikit-learn
+
+# Utilities
+monty
+tqdm

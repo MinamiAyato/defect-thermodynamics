@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "defect": "Mg_O",
+  "charge": 0,
+  "distortion": "bond_expand_1.20",
+  "composition": {
+    "Mg": 33,
+    "O": 31
+  },
+  "atom_changes": {
+    "Mg": 1,
+    "O": -1
+  },
+  "converged_expected": true
+}
