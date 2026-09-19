@@ -1,6 +1,0 @@
-SYSTEM = MgO_bulk_encut_500
-ENCUT = 500
-EDIFF = 1E-7
-NSW = 0
-ISMEAR = 0
-SIGMA = 0.05

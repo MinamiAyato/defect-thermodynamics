@@ -1,9 +1,0 @@
-SYSTEM = MgO_bulk_64_relaxed
-ENCUT = 600
-EDIFF = 1E-6
-EDIFFG = -0.02
-IBRION = 2
-ISIF = 3
-NSW = 120
-ISMEAR = 0
-SIGMA = 0.05

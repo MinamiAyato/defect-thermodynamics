@@ -1,6 +1,0 @@
-phase,formula,n_Mg,n_O,cell_energy_eV,energy_per_formula_eV,formation_enthalpy_eV_per_formula
-Mg,Mg1,1,0,-1.5,-1.5,0.0
-O2,O2,0,2,-9.8,-4.9,0.0
-MgO,Mg1O1,1,1,-12.8,-12.8,-6.4
-MgO2,Mg1O2,1,2,-16.9,-16.9,-5.6
-Mg2O,Mg2O1,2,1,-13.9,-13.9,-6.0

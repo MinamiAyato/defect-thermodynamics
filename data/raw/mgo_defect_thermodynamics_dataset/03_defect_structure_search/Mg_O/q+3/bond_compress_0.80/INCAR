@@ -1,7 +1,0 @@
-SYSTEM = Mg_O_q+3_bond_compress_0.80
-ENCUT = 600
-EDIFF = 1E-6
-EDIFFG = -0.02
-IBRION = 2
-NSW = 120
-NELECT = 637

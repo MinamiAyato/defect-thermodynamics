@@ -1,2 +1,0 @@
-E_f = E_def - E_bulk - mu_Mg + mu_O + q*(E_F + E_VBM) + E_corr
-For this dataset E_VBM=0 eV and 0 <= E_F <= 7.2 eV.

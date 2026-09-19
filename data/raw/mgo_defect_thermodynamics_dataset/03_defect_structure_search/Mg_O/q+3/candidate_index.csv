@@ -1,5 +1,0 @@
-distortion,charge,outcar
-unperturbed,3,unperturbed/OUTCAR
-bond_compress_0.80,3,bond_compress_0.80/OUTCAR
-bond_expand_1.20,3,bond_expand_1.20/OUTCAR
-rattled_0.10A,3,rattled_0.10A/OUTCAR
