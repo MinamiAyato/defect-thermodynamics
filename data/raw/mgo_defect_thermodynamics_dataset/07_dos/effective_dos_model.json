@@ -1,0 +1,9 @@
+{
+  "model": "nondegenerate_parabolic_bands",
+  "Nc_300K_cm-3": 2.5e+19,
+  "Nv_300K_cm-3": 1.8e+19,
+  "temperature_scaling": "N(T)=N(300K)*(T/300K)^1.5",
+  "electron_concentration": "n=Nc(T)*exp(-(CBM-EF)/(kB*T))",
+  "hole_concentration": "p=Nv(T)*exp(-(EF-VBM)/(kB*T))",
+  "kB_eV_per_K": 8.617333262e-05
+}

@@ -1,0 +1,9 @@
+{
+  "scheme": "synthetic_FNV_like",
+  "charge": 4,
+  "image_charge_eV": 0.36,
+  "potential_alignment_eV": 0.12,
+  "total_correction_eV": 0.48,
+  "dielectric_constant_used": 9.8,
+  "note": "Synthetic pedagogical correction; add exactly once."
+}

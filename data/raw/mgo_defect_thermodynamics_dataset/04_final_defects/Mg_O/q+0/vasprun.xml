@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!-- Synthetic, deliberately reduced VASP-like XML for parser practice. -->
+        <modeling synthetic="true">
+          <generator><i name="program">vasp.synthetic</i><i name="version">6.x-lite</i></generator>
+          <incar><i name="SYSTEM">Mg_O_q+0_final</i><i name="EDIFF">1e-6</i></incar>
+          <calculation>
+            <scstep index="final"><energy><i name="e_fr_energy">-395.80011400</i><i name="e_0_energy">-395.80000000</i></energy></scstep>
+            <convergence electronic="true" ionic="true" />
+          </calculation>
+        </modeling>

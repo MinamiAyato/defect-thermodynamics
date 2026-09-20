@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "defect": "Mg_O",
+  "charge": 3,
+  "composition": {
+    "Mg": 33,
+    "O": 31
+  },
+  "atom_changes": {
+    "Mg": 1,
+    "O": -1
+  },
+  "selected_distortion": "rattled_0.10A",
+  "site_multiplicity": 32,
+  "site_density_cm-3": 4.28e+22,
+  "degeneracy": 2,
+  "energy_reference": "E0"
+}

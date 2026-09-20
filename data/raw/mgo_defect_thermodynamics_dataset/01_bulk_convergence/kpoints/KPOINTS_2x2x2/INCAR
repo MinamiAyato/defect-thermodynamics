@@ -1,0 +1,6 @@
+SYSTEM = MgO_bulk_kmesh_2x2x2
+ENCUT = 600
+EDIFF = 1E-7
+NSW = 0
+ISMEAR = 0
+SIGMA = 0.05

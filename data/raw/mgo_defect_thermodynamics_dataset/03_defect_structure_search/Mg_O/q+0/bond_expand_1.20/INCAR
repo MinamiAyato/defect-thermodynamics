@@ -1,0 +1,7 @@
+SYSTEM = Mg_O_q+0_bond_expand_1.20
+ENCUT = 600
+EDIFF = 1E-6
+EDIFFG = -0.02
+IBRION = 2
+NSW = 120
+NELECT = 640

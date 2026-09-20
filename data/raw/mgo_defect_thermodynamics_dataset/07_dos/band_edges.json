@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "energy_reference": "VBM",
+  "vbm_eV": 0.0,
+  "cbm_eV": 7.2,
+  "band_gap_eV": 7.2,
+  "dos_fermi_header_eV": 3.6,
+  "warning": "DOS header EFERMI is a plotting placeholder, not a charge-neutrality solution."
+}
