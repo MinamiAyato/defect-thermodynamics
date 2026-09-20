@@ -15,10 +15,3 @@ ase
 # Defect thermodynamics
 doped
 shakenbreak
-
-# Machine learning
-scikit-learn
-
-# Utilities
-monty
-tqdm

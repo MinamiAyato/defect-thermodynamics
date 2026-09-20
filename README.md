@@ -1,54 +1,156 @@
-# Synthetic MgO defect-thermodynamics dataset
+# Defect Thermodynamics: A Modular Computational Materials Project
 
-This is a compact, internally consistent **training dataset** inspired by the shape of VASP workflows. Every numerical result is synthetic and every VASP-like output was written from scratch for this exercise; no full proprietary or copyrighted output is reproduced. The text files intentionally contain enough realistic clutter to require robust parsing, but are much smaller than production outputs.
+## About This Project
 
-## Scientific model
+This project was inspired by Dr. Seán Kavanagh's defect workflow.
 
-- Host: rocksalt MgO, 64-atom `2×2×2` conventional supercell (`Mg32O32`).
-- Defect: `Mg_O`, represented as `Mg33O31`, in charge states `q = 0,+1,+2,+3,+4`.
-- Energy zero for electronic thermodynamics: valence-band maximum (`VBM = 0 eV`).
-- Synthetic band gap: `7.20 eV`.
-- Defect formation energy convention:
+The original workflow is powerful, but for beginners entering computational materials science, especially defect calculations, it can be difficult to see which skills are fundamental and which steps are simply part of a larger automated workflow.
 
-  `E_f(Mg_O^q,E_F) = E_def(q) - E_bulk - μ_Mg + μ_O + q(E_F + E_VBM) + E_corr(q)`
+This repository therefore tries to break the workflow down into several independent capability modules, so that beginners can practise and understand each idea more efficiently.
 
-  Here positive `n_i` means atoms added to the defect cell. For `Mg_O`, `n_Mg=+1` and `n_O=-1`, hence the chemical-potential term above.
+At the same time, this project is also a way for the author to strengthen his own understanding of computational materials science, scientific Python, and defect physics.
 
-## Directory map
+The author believes that the laws of nature should ultimately be simple.
 
-```text
-00_documentation/                  schema, units, manifest
-01_bulk_convergence/
-  encut/                           8-atom fixed-cell single points
-  kpoints/                         8-atom fixed-cell single points
-02_bulk_relaxed/                   final 64-atom bulk calculation
-03_defect_structure_search/Mg_O/   four candidate distortions per charge state
-04_final_defects/Mg_O/             selected q=0…+4 calculations
-05_chemical_potentials/            elemental and competing-phase energies
-06_dielectric_convergence/         dielectric tensors vs settings
-07_dos/                            DOSCAR-like data and band-edge metadata
-08_reference/                      expected values for tests (use only after trying)
-```
+> If something feels impossibly complicated, there is probably still a missing piece in our understanding, or we have added one abstraction layer too many.
 
-## Suggested parsing exercises
+So the goal here is not to make the workflow look sophisticated, but to make the underlying ideas as clear as possible.
 
-1. Recursively find `OUTCAR` files and extract `SYSTEM`, `ENCUT`, k-mesh, `NIONS`, `NELECT`, final `E0`, final `TOTEN`, maximum force, ionic steps, and convergence status.
-2. For ENCUT and k-point sweeps, calculate `ΔE` relative to the highest setting in meV/atom. Choose the least expensive setting within `1 meV/atom` of the reference.
-3. For each charge state in the structure search, rank distortions by final `E0`. Detect the deliberately unconverged candidate and decide whether to exclude it.
-4. Join final defect `metadata.json`, `OUTCAR`, `vasprun.xml`, and `correction.json` into one table.
-5. Reproduce formation-energy lines under O-rich, midpoint, and Mg-rich chemical potentials. Find the lower envelope and charge-transition levels within `0–7.2 eV`.
-6. Use `site_density_cm-3` and degeneracy from metadata to calculate dilute-limit defect concentrations: `c = N_sites g exp(-E_f/k_B T)`.
-7. Parse the DOS and/or use the supplied effective-density-of-states model to calculate electrons and holes, then solve charge neutrality for a self-consistent Fermi level. State any approximations.
+Hopefully, this repository can be useful to other beginners as well, and we can improve together.
 
-## Important details and traps
 
-- Folder names are helpful metadata, but the authoritative charge and composition are in `metadata.json`.
-- `free energy TOTEN` and extrapolated `final energy (E0)` differ slightly; use one definition consistently. The reference calculations use `E0`.
-- One structure-search calculation is intentionally unconverged.
-- Corrections are stored separately and must be added exactly once.
-- DOS energies are already shifted so that `VBM=0`; the Fermi energy printed in the DOS header is not the thermodynamic Fermi level.
-- The structure files are POSCAR/CONTCAR-style, not guaranteed to support every strict VASP reader because this is a pedagogical reduced dataset.
+## Project Goals
 
-## Recommended first notebook
+The main goals of this project are to:
 
-Start with `01_bulk_convergence`, write a reusable OUTCAR parser, add tests against `08_reference/expected_results.json`, and only then reuse the parser for the structure search and final defects.
+- understand how computational materials data are represented and processed in Python;
+- connect crystal-structure operations with their physical meaning;
+- learn how numerical convergence is evaluated;
+- understand how defect structures and charge states are generated;
+- explore why multiple local defect geometries must be considered;
+- build toward defect thermodynamics and Fermi-level analysis.
+
+The emphasis is on understanding the logic behind the workflow rather than treating scientific software as a black box.
+
+---
+
+## Project Structure
+
+### 1. Structure File I/O
+
+Learn how crystal structures are stored in files and represented as Python objects.
+
+Main topics:
+
+- manually inspect and parse a POSCAR;
+- convert structure files into `pymatgen.Structure` objects;
+- inspect lattice, composition, coordinates, and volume;
+- write structure objects back to files.
+
+Core idea:
+
+**structure file → Python object → inspect or modify → write back**
+
+---
+
+### 2. Simulation & Numerical Reliability
+
+Learn how to extract results from multiple calculations and determine whether a numerical parameter is sufficiently converged.
+
+Main topics:
+
+- locate and read multiple VASP output files;
+- extract quantities such as ENCUT and final total energy;
+- organise comparable calculation results;
+- evaluate numerical convergence;
+- balance numerical accuracy and computational cost.
+
+Core idea:
+
+**find calculation outputs → extract comparable data → evaluate energy changes → choose a sufficiently converged setting**
+
+A larger numerical parameter is not automatically the best choice. The goal is to find a value beyond which further increases produce only negligible changes in the calculated result.
+
+---
+
+### 3. Atomic Structure & Defect Modelling
+
+Learn how a pristine crystal is transformed into physically meaningful defect models.
+
+Main topics:
+
+- obtain a primitive structure from a bulk structure;
+- manually construct a supercell;
+- compare manual and automated supercell generation;
+- generate vacancies, substitutions, and interstitials;
+- generate possible defect charge states;
+- use `ShakeNBreak` to generate multiple distorted starting structures;
+- understand how relaxed structures are compared to identify lower-energy defect geometries.
+
+Core idea:
+
+**primitive structure → supercell → defect → charge state → distorted structures → lowest-energy defect geometry**
+
+The initial defect geometry is only a starting hypothesis. Different local distortions may relax into different minima on the potential-energy surface, so several candidate structures should be explored.
+
+---
+
+### 4. Defect Physics & Thermodynamics
+
+This module will connect calculated defect energies to thermodynamic behaviour.
+
+Planned topics:
+
+- chemical potentials;
+- dielectric screening and finite-size corrections;
+- defect formation energies;
+- charge-transition levels;
+- equilibrium defect concentrations;
+- carrier concentrations;
+- self-consistent Fermi-level determination.
+
+Core idea:
+
+**defect energetics → thermodynamic stability → concentrations → electronic behaviour**
+
+---
+
+## Tools
+
+The project uses Python-based materials-science tools including:
+
+- `pymatgen`
+- `doped`
+- `ShakeNBreak`
+- `NumPy`
+- `pandas`
+- `Matplotlib`
+
+VASP-specific input generation is not the main focus of this repository. Instead, the project concentrates on the transferable physical and computational ideas behind defect calculations.
+
+---
+
+## Current Progress
+
+Completed or in progress:
+
+- [x] project environment and repository setup
+- [x] structure file parsing and `pymatgen` structure handling
+- [x] ENCUT convergence analysis
+- [x] primitive-cell and supercell construction
+- [x] automated defect generation with `doped`
+- [x] defect charge-state generation
+- [ ] distorted defect structures with `ShakeNBreak`
+- [ ] relaxed-structure energy comparison
+- [ ] defect formation energies
+- [ ] defect thermodynamics and Fermi-level analysis
+
+---
+
+## Learning Philosophy
+
+The project follows a simple principle:
+
+**understand the physical problem first, then use scientific software to solve it efficiently.**
+
+Manual implementations are used when they help reveal the underlying logic. Once the concept is understood, validated scientific libraries are preferred for routine calculations.
